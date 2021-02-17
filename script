@@ -1,5 +1,5 @@
 #!/bin/bash
-if  [ $ {UID} -eq 0 ]
+if  [ $ {UID} -ne 0 ]
 then 
 echo
 echo  "you need root access"
